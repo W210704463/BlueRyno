@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blue Ryno Fencing - Professional fence installation and repair services in Charlotte, NC. Residential, commercial, and custom fencing solutions.">
+    <meta name="keywords" content="fence installation, fence repair, residential fencing, commercial fencing, Charlotte NC">
+    <meta name="author" content="Blue Ryno Fencing">
+    <title>Blue Ryno Fencing - Professional Fencing Solutions</title>
+    
+    <link rel="preload" href="images/logo.png" as="image">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-brand">
+            <img src="images/logo.png" alt="Blue Ryno Fencing" class="logo" width="100" height="100">
+        </div>
+        <ul class="nav-links" role="menubar">
+            <li role="none"><a href="index.html" class="active" role="menuitem" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="designs.html">Designs</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="terms.html">Terms</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero" role="banner">
+            <div class="container text-center">
+                <h1 class="display-4" itemprop="name">Quality Fence Solutions and More</h1>
+                <p class="lead" itemprop="description">Professional fence installation and repair services. 
+                    Durable, Aesthetic Fencing for Homes and Businesses.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg cta-button" role="button">
+                    Get a Quote
+                    <span class="visually-hidden">Request a free quote for fencing services</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="featured-services container py-5">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="images/residential.jpg" class="card-img-top" alt="Residential Fencing" width="200" height="200">
+                        <div class="card-body">
+                            <h3 class="card-title">Residential Fencing</h3>
+                            <p class="card-text">Custom fencing solutions for homes and properties.</p>
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="images/commercial.jpg" class="card-img-top" alt="Commercial Fencing" width="200" height="200">
+                        <div class="card-body">
+                            <h3 class="card-title">Commercial Fencing</h3>
+                            <p class="card-text">Security and aesthetic fencing for businesses.</p>
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="images/custom.jpg" class="card-img-top" alt="Custom Solutions" width="200" height="200">
+                        <div class="card-body">
+                            <h3 class="card-title">Custom Solutions</h3>
+                            <p class="card-text">Tailored fencing designs for unique needs.</p>
+                            <a href="services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="weather-widget container" aria-labelledby="weather-title">
+            <div class="card">
+                <div class="card-body">
+                    <h2 id="weather-title" class="card-title text-center mb-4">Current Weather</h2>
+                    <script>
+                        (function(d, s, id) {
+                        if (d.getElementById(id)) {
+                        if (window.__TOMORROW__) {
+                        window.__TOMORROW__.renderWidget();
+                        }
+                        return;
+                        }
+                        const fjs = d.getElementsByTagName(s)[0];
+                        const js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+                        
+                        fjs.parentNode.insertBefore(js, fjs);
+                        })(document, 'script', 'tomorrow-sdk');
+                        </script>
+                        
+                        <div class="tomorrow"
+                        data-location-id="118699,114570,114953,117042,125433,113736"
+                        data-language="EN"
+                        data-unit-system="IMPERIAL"
+                        data-skin="dark"
+                        data-widget-type="current6"
+                        style="padding-bottom:22px;position:relative;"
+                        >
+                        <a
+                        href="https://www.tomorrow.io/weather-api/"
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                        >
+                        <img
+                        alt="Powered by the Tomorrow.io Weather API"
+                        src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                        width="250"
+                        height="18"
+                        />
+                        </a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us container py-5">
+            <h2 class="text-center mb-4">Why Choose Blue Ryno Fencing?</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="bi bi-shield-check"></i>
+                        <h3>Quality Guaranteed</h3>
+                        <p>Premium materials and expert craftsmanship</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="bi bi-clock"></i>
+                        <h3>Timely Service</h3>
+                        <p>On-time project completion</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="bi bi-tools"></i>
+                        <h3>Expert Installation</h3>
+                        <p>Professional and certified installers</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="bi bi-cash"></i>
+                        <h3>Competitive Pricing</h3>
+                        <p>Best value for your investment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials container py-5">
+            <h2 class="text-center mb-4">Customer Testimonials</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 bg-light rounded">
+                        <p>"Blue Ryno Fencing did an amazing job on our new fence. Highly recommend!"</p>
+                        <p class="text-muted">- Jane Doe</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 bg-light rounded">
+                        <p>"Professional and timely service. Our yard looks great with the new fence."</p>
+                        <p class="text-muted">- John Smith</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 bg-light rounded">
+                        <p>"Excellent craftsmanship and attention to detail. Very satisfied with the results."</p>
+                        <p class="text-muted">- Emily Johnson</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-3">Ready to Start Your Fencing Project?</h2>
+                <p class="lead mb-4">Contact us today for a free consultation and estimate</p>
+                <a href="contact.html" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light py-4" role="contentinfo">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Blue Ryno Fencing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
